@@ -66,7 +66,7 @@ class LowestCloseOfLast5Candles(bt.Strategy):
 cerebro = bt.Cerebro()
 
 data = bt.feeds.GenericCSVData(
-    dataname='/Users/marnocapitalgroup/nico/algoTrading/backtests/MR_BL_SH/btc_usdc_data.csv',
+    dataname='btc_usdc_data.csv',
     dtformat='%Y-%m-%d',
     datetime=0,
     close=4,
